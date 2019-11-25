@@ -1,0 +1,9 @@
+A minimal cup head SLiM (Simple Login Manager) theme.
+
+Themes are stored in:
+/usr/share/slim/themes
+
+SLiM configurations are stored in:
+/etc/slim.conf
+
+Enjoy :)

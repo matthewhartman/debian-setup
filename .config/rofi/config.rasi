@@ -1,0 +1,44 @@
+configuration {
+  show-icons: true;
+  columns: 1;
+  sidebar-mode: false;
+}
+
+* {
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+}
+
+#window {
+  fullscreen: true;
+  padding: 20% 20%;
+  background-color: rgba(20, 15, 33, 0.85);
+}
+
+prompt {
+  padding: 8px;
+}
+
+inputbar {
+  padding: 10px 10;
+  background-color: rgba(255, 255, 255, 0.075);
+  border-radius: 0px;
+  margin: 0 0 20px 0;
+}
+entry {
+  font: "Sans Serif 20";
+}
+
+element {
+  padding: 10px 12px;
+  border-radius: 0;
+  font: "Sans Serif 20";
+}
+
+element.selected {
+  background-color: rgba(255, 255, 255, 0.075);
+}
+
+mode-switcher {
+  enabled: false;
+}
