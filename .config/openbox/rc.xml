@@ -480,6 +480,11 @@
         <command>gnome-screenshot -a</command>
       </action>
     </keybind>
+    <keybind key="W-S-s">
+      <action name="Execute">
+        <command>gnome-screenshot -a</command>
+      </action>
+    </keybind>
     <!-- Keybindings for window switching -->
     <keybind key="A-Tab">
       <action name="NextWindow">

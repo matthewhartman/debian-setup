@@ -2,7 +2,7 @@
 
 This is my nimble computer setup - a very lightweight Debian 10.2 (Buster) installation with Openbox and cool tweaks.
 
-It has been configured on a [Dell Inspiron 11 3000 (Pentium N3710 Quad-Core) laptop](http://www.dell.com/au/p/inspiron-11-3162-laptop/pd?oc=z511231au&model_id=inspiron-11-3162-laptop).
+It has been configured on a [Dell Inspiron 11 3000 (Pentium N3710 Quad-Core) laptop](https://www.ozbargain.com.au/node/324047).
 
 ## Busy
 ![Alt text](desktop-busy.png?raw=true "Desktop Busy")
