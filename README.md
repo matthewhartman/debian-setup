@@ -143,7 +143,7 @@ neofetch fonts-noto-color-emoji -y
 ## Add Sudo Privileges
 Add your user to the sudo group:
 
-    sudo adduser <username> sudo
+    sudo adduser $USER sudo
 
 ## Clone Repo and Copy Config
 
