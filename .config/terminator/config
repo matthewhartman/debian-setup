@@ -1,9 +1,18 @@
 [global_config]
-  title_inactive_bg_color = "#51f2fa"
-  title_inactive_fg_color = "#ebe3b7"
-  title_transmit_bg_color = "#000000"
   title_transmit_fg_color = "#ebe3b7"
+  title_transmit_bg_color = "#000000"
+  title_inactive_fg_color = "#ebe3b7"
+  title_inactive_bg_color = "#51f2fa"
 [keybindings]
+[profiles]
+  [[default]]
+    background_color = "#002b36"
+    cursor_color = "#ebe3b7"
+    foreground_color = "#839496"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#000000:#f5bfba:#ffffff:#ebe3b7:#f5bfba:#878368:#b6b08d:#ebe3b7:#51f2fa:#f5bfba:#e4d678:#61dee4:#c7b82f:#becafc:#6fecf3:#f0bdb8"
+    use_theme_colors = True
 [layouts]
   [[default]]
     [[[child1]]]
@@ -14,10 +23,3 @@
       parent = ""
       type = Window
 [plugins]
-[profiles]
-  [[default]]
-    cursor_color = "#ebe3b7"
-    foreground_color = "#ebe3b7"
-    palette = "#000000:#f5bfba:#ffffff:#ebe3b7:#f5bfba:#878368:#b6b08d:#ebe3b7:#51f2fa:#f5bfba:#e4d678:#61dee4:#c7b82f:#becafc:#6fecf3:#f0bdb8"
-    scrollbar_position = hidden
-    show_titlebar = False
