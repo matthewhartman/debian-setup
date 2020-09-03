@@ -159,7 +159,7 @@ Once you are connected to the internet, upgrade your system and install the pack
 sudo apt update && sudo apt upgrade -y && \
 sudo apt install aptitude apt-transport-https libnotify-bin xorg xbacklight \
 openbox pulseaudio volumeicon-alsa obconf obmenu curl xclip p7zip htop \
-rofi nitrogen tint2 viewnior xcompmgr zip thunar thunar-archive-plugin \
+rofi nitrogen tint2 nomacs xcompmgr zip thunar thunar-archive-plugin \
 thunar-media-tags-plugin terminator lxappearance lxappearance-obconf \
 git gitk autoconf libgtk-3-dev chromium wicd xscreensaver xscreensaver-gl-extra \
 xscreensaver-data-extra simplescreenrecorder simple-scan gnome-disk-utility \
