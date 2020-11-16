@@ -164,7 +164,7 @@ thunar-media-tags-plugin terminator lxappearance lxappearance-obconf \
 git gitk autoconf libgtk-3-dev chromium wicd xscreensaver xscreensaver-gl-extra \
 xscreensaver-data-extra simplescreenrecorder simple-scan gnome-disk-utility \
 ack-grep vlc libssl1.1 gsimplecal arandr dunst gnome-screenshot arc-theme \
-neofetch fonts-noto-color-emoji -y
+neofetch fonts-noto-color-emoji dnsutils -y
 ```
 
 ```bash
