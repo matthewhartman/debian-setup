@@ -1,0 +1,34 @@
+# zelda theme for SLiM
+# matthewhartmanau@gmail.com
+
+# Messages (ie: shutdown)
+msg_color                   #fff
+msg_font                    Sans:size=16:dpi=75
+msg_x                       50%
+msg_y                       40%
+msg_shadow_xoffset          1
+msg_shadow_yoffset          1
+
+# valid values: stretch, tile
+background_style            center
+background_color            #8F00FF
+
+# Input controls
+input_panel_x               45%
+input_panel_y               50%
+input_name_x                270
+input_name_y                90
+input_font                  Sans:size=16:dpi=75
+input_fgcolor               #fff
+input_color                 #fff
+
+# Username / password request
+username_font               Sans:size=16:dpi=75
+username_color              #fff
+username_x                  240
+username_y                  90
+password_x                  240
+password_y                  90
+
+username_msg                U /
+password_msg                P /
