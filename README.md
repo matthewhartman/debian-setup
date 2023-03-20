@@ -98,7 +98,7 @@ xscreensaver-data-extra simplescreenrecorder simple-scan gnome-disk-utility \
 ack-grep vlc libssl1.1 gsimplecal arandr dunst gnome-screenshot arc-theme \
 neofetch fonts-noto-color-emoji dnsutils slim connman \
 binutils build-essential arc-theme moka-icon-theme \
-firmware-realtek connman-gtk -y
+firmware-realtek connman-gtk ristretto -y
 ```
 
 ```bash
