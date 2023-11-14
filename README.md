@@ -99,6 +99,7 @@ ack-grep vlc libssl1.1 gsimplecal arandr dunst gnome-screenshot arc-theme \
 neofetch fonts-noto-color-emoji dnsutils slim connman \
 binutils build-essential arc-theme moka-icon-theme \
 firmware-realtek connman-gtk ristretto -y
+sudo apt remove lxappearance-obconf -y
 ```
 
 ```bash
