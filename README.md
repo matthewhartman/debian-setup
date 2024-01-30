@@ -64,15 +64,14 @@ Once you are connected to the internet, upgrade your system and install the pack
 ```bash
 sudo apt update && sudo apt upgrade -y && \
 sudo apt install aptitude apt-transport-https libnotify-bin xorg \
-openbox pulseaudio volumeicon-alsa obconf obmenu curl xclip p7zip htop \
-rofi nitrogen tint2 nomacs xcompmgr zip thunar thunar-archive-plugin \
+openbox pulseaudio volumeicon-alsa obconf curl xclip p7zip htop \
+rofi nitrogen tint2 xcompmgr zip thunar thunar-archive-plugin \
 thunar-media-tags-plugin terminator lxappearance lxappearance-obconf \
 git gitk autoconf libgtk-3-dev chromium xscreensaver xscreensaver-gl-extra \
 xscreensaver-data-extra simplescreenrecorder simple-scan gnome-disk-utility \
-ack-grep vlc libssl1.1 gsimplecal arandr dunst gnome-screenshot arc-theme \
-neofetch fonts-noto-color-emoji dnsutils slim connman \
-binutils build-essential arc-theme moka-icon-theme \
-firmware-realtek connman-gtk ristretto -y
+ vlc gsimplecal arandr dunst gnome-screenshot arc-theme \
+neofetch fonts-noto-color-emoji dnsutils slim connman binutils build-essential \
+arc-theme moka-icon-theme connman-gtk ristretto -y
 sudo apt remove lxappearance-obconf -y
 ```
 
