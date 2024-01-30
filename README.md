@@ -1,6 +1,6 @@
 # My Debian 12 (Bookworm) Setup
 
-This is my nimble computer setup - a very lightweight Debian 12 (Bookworm) installation with Openbox and cool tweaks.
+This is my nimble computer setup - a very lightweight Debian 12 (Bookworm) installation with Openbox and other cool tweaks.
 
 ## Busy
 ![Alt text](desktop-busy.png?raw=true "Desktop Busy")
@@ -57,6 +57,16 @@ sudo dd if=debian-12.4.0-amd64-netinst.iso of=/dev/sdb# bs=4M; sync
 ```
 
 
+## Add Sudo Privileges
+Login as root and install `sudo`. Once sudo is installed, add your user to the sudo group.
+
+```bash
+sudo adduser YOUR_USERNAME sudo
+```
+
+Exit root login and login as your regular user.
+
+
 ## Install Packages
 
 Once you are connected to the internet, upgrade your system and install the packages below:
@@ -69,23 +79,13 @@ rofi nitrogen tint2 xcompmgr zip thunar thunar-archive-plugin \
 thunar-media-tags-plugin terminator lxappearance lxappearance-obconf \
 git gitk autoconf libgtk-3-dev chromium xscreensaver xscreensaver-gl-extra \
 xscreensaver-data-extra simplescreenrecorder simple-scan gnome-disk-utility \
- vlc gsimplecal arandr dunst gnome-screenshot arc-theme \
-neofetch fonts-noto-color-emoji dnsutils slim connman binutils build-essential \
+vlc gsimplecal arandr dunst gnome-screenshot arc-theme neofetch \
+fonts-noto-color-emoji dnsutils slim connman binutils build-essential \
 arc-theme moka-icon-theme connman-gtk ristretto -y
 sudo apt remove lxappearance-obconf -y
 ```
 
-```bash
-reboot
-```
-
-
-## Add Sudo Privileges
-Add your user to the sudo group:
-
-```bash
-sudo adduser $USER sudo
-```
+Once the packages have been installed, reboot the machine.
 
 
 ## Clone Repo and Copy Config
