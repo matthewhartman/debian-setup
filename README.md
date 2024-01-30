@@ -1,6 +1,6 @@
-# My Debian 11 (Bullseye) Setup
+# My Debian 12 (Bookworm) Setup
 
-This is my nimble computer setup - a very lightweight Debian 11 (Bullseye) installation with Openbox and cool tweaks.
+This is my nimble computer setup - a very lightweight Debian 12 (Bookworm) installation with Openbox and cool tweaks.
 
 ## Busy
 ![Alt text](desktop-busy.png?raw=true "Desktop Busy")
@@ -53,33 +53,7 @@ Go to the [Debian downloads](https://www.debian.org/CD/netinst/) and grab the la
 Once downloaded, open up terminal and make a bootable USB:
 
 ```bash
-sudo dd if=debian-11.0.0-amd64-netinst.iso of=/dev/sdb# bs=4M; sync
-```
-
-
-## Installing Network Tools and Drivers
-
-Before proceeding any further, make sure you login as root.
-
-
-### Install Drivers:
-
-Clone the following repo:
-
-```bash
-git clone https://github.com/OpenELEC/iwlwifi-firmware.git
-```
-
-
-## Updating Sources
-
-`nano /etc/apt/sources.list`
-
-```bash
-deb http://deb.debian.org/debian bullseye main contrib non-free
-deb http://deb.debian.org/debian bullseye-updates main contrib non-free
-deb http://security.debian.org/debian-security bullseye-security main
-deb http://ftp.debian.org/debian bullseye-backports main contrib non-free
+sudo dd if=debian-12.4.0-amd64-netinst.iso of=/dev/sdb# bs=4M; sync
 ```
 
 
