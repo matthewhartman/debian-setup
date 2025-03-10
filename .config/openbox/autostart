@@ -31,4 +31,7 @@ dunstr &
 # My wallpaper
 sleep 3s && nitrogen --restore &
 
+# Wireless
+connman-gtk &
+
 xscreensaver -no-splash &
