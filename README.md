@@ -80,6 +80,7 @@ thunar-media-tags-plugin terminator lxappearance lxappearance-obconf \
 git gitk autoconf libgtk-3-dev chromium xscreensaver xscreensaver-gl-extra \
 xscreensaver-data-extra simplescreenrecorder simple-scan gnome-disk-utility \
 vlc gsimplecal arandr dunst gnome-screenshot arc-theme neofetch \
+i3lock scrot imagemagick maim \
 fonts-noto-color-emoji dnsutils slim connman binutils build-essential \
 arc-theme moka-icon-theme connman-gtk ristretto -y
 sudo apt remove lxappearance-obconf -y

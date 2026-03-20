@@ -213,9 +213,14 @@
       </action>
     </keybind>
     <!-- Keybinding for Locking Screen -->
-    <keybind key="W-L">
+    <!-- <keybind key="W-L">
       <action name="Execute">
         <execute>xscreensaver-command -lock</execute>
+      </action>
+    </keybind> -->
+    <keybind key="W-L">
+      <action name="Execute">
+        <execute>~/.config/openbox/lock.sh</execute>
       </action>
     </keybind>
     <!-- Keybindings for Media Keys -->
